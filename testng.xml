@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite" >
+   <test name="Login Success" >
+       <classes> 
+          <class name="Tests.LoginSuccessTest" />
+       </classes>
+   </test>
+    <test name="Register Success" >
+       <classes> 
+          <class name="Tests.RegisterSuccessTest" />
+       </classes>
+   </test>
+    <test name="Flights Success" >
+       <classes> 
+          <class name="Tests.FlightsSuccessTest" />
+       </classes>
+   </test>
+ </suite>
